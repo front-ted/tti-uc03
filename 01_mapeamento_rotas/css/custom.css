@@ -77,6 +77,16 @@
 }
 
 
+.painel-tipos{
+    margin: 50px auto;
+    text-align: center;
+    border: #f00 solid 1px;
+}
+.painel-tipos button{
+    margin: 10px;
+}
+
+
 .modal-body .row .destaque{
     margin: 10px 0px;
     height: 300px;
