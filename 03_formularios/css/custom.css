@@ -1,0 +1,120 @@
+
+
+
+
+
+.div-postit, .div-postit02{
+    margin: 40px auto;
+    text-align: center;
+}
+.div-postit img{
+    margin: 8px;
+}
+.div-postit02 img{
+    margin: 10px;
+}
+
+
+.infografico01{
+    margin: 50px auto;
+}
+.infografico01 .row {
+    --bs-gutter-x: 0;
+}
+.infografico01 .row *{
+    padding: 0;
+    margin: 0;
+    --bs-gutter-x: 0;
+}
+.infografico01 img{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 101%
+}
+.info-div01, .info-div02{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 40px !important;
+}
+.info-div01{
+    background-color: #92ACCE;
+}
+.info-div02{
+    background-color: #FB9D49;
+}
+
+.painel-passos{
+    margin: 50px auto;
+    width: 800px;
+    height: 600px;
+    background: url('../img/painel-bg.png') no-repeat center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.painel-passos button{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+}
+.btn-passo1{
+    margin-left: -400px;
+    margin-top: -100px;
+}
+.btn-passo2{
+    margin-right: -400px;
+    margin-top: -100px;
+}
+.btn-passo3{
+    margin-left: -340px;
+    margin-bottom: -100px;
+}
+.btn-passo4{
+    margin-right: -340px;
+    margin-bottom: -100px;
+}
+
+
+.painel-tipos{
+    margin: 50px auto;
+    text-align: center;
+}
+.painel-tipos button{
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    transition: all 0.3s;
+    border: none;
+}
+.painel-tipos button:hover{
+    transform: scale(1.05);
+}
+.btn-residenciais{background: url('../img/bt-residenciais.png') no-repeat;}
+.btn-terrenos{background: url('../img/bt-terrenos.png') no-repeat;}
+.btn-depositos{background: url('../img/bt-depositos.png') no-repeat;}
+.btn-comerciais{background: url('../img/bt-comerciais.png') no-repeat;}
+.btn-rurais{background: url('../img/bt-rurais.png') no-repeat;}
+
+
+.modal-body .row .destaque{
+    margin: 10px 0px;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 820px){
+    .modal-body .row .destaque{
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .info-div01, .info-div02{
+        padding: 40px !important;
+    }
+
+}
