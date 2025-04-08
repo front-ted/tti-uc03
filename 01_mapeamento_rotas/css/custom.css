@@ -80,11 +80,23 @@
 .painel-tipos{
     margin: 50px auto;
     text-align: center;
-    border: #f00 solid 1px;
 }
 .painel-tipos button{
-    margin: 10px;
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    transition: all 0.3s;
+    border: none;
 }
+.painel-tipos button:hover{
+    transform: scale(1.05);
+}
+.btn-residenciais{background: url('../img/bt-residenciais.png') no-repeat;}
+.btn-terrenos{background: url('../img/bt-terrenos.png') no-repeat;}
+.btn-depositos{background: url('../img/bt-depositos.png') no-repeat;}
+.btn-comerciais{background: url('../img/bt-comerciais.png') no-repeat;}
+.btn-rurais{background: url('../img/bt-rurais.png') no-repeat;}
 
 
 .modal-body .row .destaque{
