@@ -8,8 +8,10 @@ var containers = [
 
   // Containers que irão receber os cards
   document.querySelector("#slot-1"),
-  document.querySelector('#slot-2'), 
-  document.querySelector('#slot-3')
+  document.querySelector('#slot-2'),
+  document.querySelector("#slot-3"),
+  document.querySelector('#slot-4'),
+  document.querySelector('#slot-5')
 ];
 var audio = new Audio();
 var erro = 0;
