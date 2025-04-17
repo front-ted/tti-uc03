@@ -1021,4 +1021,7 @@ tbody td:first-child{border-left: 0;}
         right: 0;
         margin: auto;
     }
+    .carousel-control-next{
+        right: 0;
+    }
 }
