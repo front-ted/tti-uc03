@@ -1,0 +1,88 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+    background-image: radial-gradient(farthest-corner at 5% 5%, #7F9FBE 0%, transparent 40%), 
+                      radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 40%);
+}
+
+.paginas{
+    background: url("../img/elementoflutuante01.png") no-repeat left 0px bottom 14% / 15%,
+                url("../img/elementoflutuante02.png") no-repeat right 0px top 30% / 15%;
+    background-attachment: fixed;
+}
+
+.info-aspectos{
+    margin: 50px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 8px;
+}
+.info-aspectos img{
+    width: 280px;
+    margin: 5px;
+}
+
+
+
+
+.painel-ambientes{
+    margin: 50px auto;
+    text-align: center;
+}
+.painel-ambientes button{
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 100%;
+}
+
+.btn-fachadas{background: url('../img/bt-fachadas.png') no-repeat;}
+.btn-cozinha{background: url('../img/bt-cozinha.png') no-repeat;}
+.btn-sala{background: url('../img/bt-sala.png') no-repeat;}
+.btn-varandas{background: url('../img/bt-sacada.png') no-repeat;}
+.btn-quartos{background: url('../img/bt-quarto.png') no-repeat;}
+.btn-banheiro{background: url('../img/bt-banheiro.png') no-repeat;}
+.btn-terrenos{background: url('../img/bt-terrenos.png') no-repeat;}
+.btn-comerciais{background: url('../img/bt-imoveis.png') no-repeat;}
+
+
+.modal-body .row .destaque{
+    margin: 10px 0px;
+    height: 300px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: transparent;
+}
+
+.selo-presencialidade{
+    display: block;
+    margin: 20px auto;
+    max-width: 220px;
+}
+
+
+@media screen and (max-width: 820px){
+    .modal-body .row .destaque{
+        height: 100%;
+    }
+
+    .info-aspectos{
+        width: 620px;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .info-aspectos{
+        width: 310px;
+        padding: 10px;
+    }
+}
