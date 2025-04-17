@@ -1,6 +1,12 @@
-
-
-
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+    background-image: radial-gradient(farthest-corner at 5% 5%, #7F9FBE 0%, transparent 40%), 
+                      radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 40%);
+}
 
 
 .div-postit, .div-postit02{
@@ -109,12 +115,31 @@
     .modal-body .row .destaque{
         height: 100%;
     }
+
+    .painel-passos{
+        transform: scale(0.8);
+        margin: -40px -50px -10px -40px;
+    }
 }
 
 
 @media screen and (max-width: 480px){
     .info-div01, .info-div02{
         padding: 40px !important;
+    }
+
+    .painel-passos{
+        transform: scale(1);
+        margin: 40px auto;
+        background: none;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .painel-passos button{
+        position: relative;
+        margin: 20px auto;
+        display: block;
     }
 
 }
