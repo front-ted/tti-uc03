@@ -21,6 +21,7 @@ body{
     width: 100%;
     min-height: 440px;
     background-size: cover;
+    background-attachment: fixed;
     margin: 80px 0px;
 }
 .divisoria_1{background: url('../img/divisoria_1.png') no-repeat center;}
