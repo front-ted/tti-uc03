@@ -88,6 +88,7 @@ body{
 .painel-tipos{
     margin: 50px auto;
     text-align: center;
+    position: relative;
 }
 .painel-tipos button{
     margin: 15px;
@@ -96,6 +97,7 @@ body{
     background-size: cover;
     transition: all 0.3s;
     border: none;
+    position: relative;
 }
 .painel-tipos button:hover{
     transform: scale(1.05);
@@ -106,14 +108,12 @@ body{
 .btn-comerciais{background: url('../img/bt-comerciais.png') no-repeat;}
 .btn-rurais{background: url('../img/bt-rurais.png') no-repeat;}
 
-.visto::after{
-    content: url('../../assets/images/check.svg');
-    display: block;
-    height: 30px;
-    width: 30px;
-    position: absolute;
+.img-check{
+    width: 25px;
     top: 95px;
-    right: -10px;
+    right: 0px;
+    position: absolute;
+    display: none;
 }
 
 

@@ -1,3 +1,15 @@
 $(".btn-residenciais").click(function(){
-    $(this).addClass("visto");
+    $(".check-residenciais").css('display','block');
+});
+$(".btn-terrenos").click(function(){
+    $(".check-terrenos").css('display','block');
+});
+$(".btn-depositos").click(function(){
+    $(".check-depositos").css('display','block');
+});
+$(".btn-comerciais").click(function(){
+    $(".check-comerciais").css('display','block');
+});
+$(".btn-rurais").click(function(){
+    $(".check-rurais").css('display','block');
 });
