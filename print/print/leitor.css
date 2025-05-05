@@ -760,3 +760,8 @@ table.excel *{
 .citacao {
   padding-left: 20%;
 }
+
+.div-transcricao{
+  border: #000 solid 2px;
+  padding: 10px;
+}

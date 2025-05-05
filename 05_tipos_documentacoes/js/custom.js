@@ -23,3 +23,25 @@ $(".btn-registros").mouseover(function() {
 $(".btn-certidoes").mouseover(function() {
     $(".painel-arquivo").css('background-image','url(img/painel-clicavel-07.png)');
 })
+
+$(".btn-matricula").click(function(){
+    $(".check-matricula").css('display','block');
+});
+$(".btn-iptu").click(function(){
+    $(".check-iptu").css('display','block');
+});
+$(".btn-itr").click(function(){
+    $(".check-itr").css('display','block');
+});
+$(".btn-guia").click(function(){
+    $(".check-guia").css('display','block');
+});
+$(".btn-rg_cpf").click(function(){
+    $(".check-rg_cpf").css('display','block');
+});
+$(".btn-registros").click(function(){
+    $(".check-registros").css('display','block');
+});
+$(".btn-certidoes").click(function(){
+    $(".check-certidoes").css('display','block');
+});

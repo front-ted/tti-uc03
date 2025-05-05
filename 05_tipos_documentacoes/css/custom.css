@@ -1,18 +1,20 @@
-body{
-    background: url("../img/flutuante_3.png") no-repeat right 5px top 2% / 15%,
-                url("../img/flutuante_2.png") no-repeat left 2px top 10% / 15%,
-                url("../img/flutuante_5.png") no-repeat right 5px top 18% / 15%,
-}
 
 .bloco-gradiente{
     padding-top: 20px;
     padding-bottom: 100px;
+    /*
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    */
     background-color: #FFFFFF;
-    background-image: radial-gradient(farthest-corner at 5% 5%, #7F9FBE 0%, transparent 60%), 
-                      radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 60%);
+    background: radial-gradient(farthest-corner at 5% 5%, #7F9FBE 0%, transparent 60%) no-repeat center / cover, 
+                radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 60%) no-repeat center / cover;
+}
+.bloco-gradiente.bloco-01{
+    background: url("../img/elemento_flutuante01.png") no-repeat right 5px bottom 30% / 15%,
+                radial-gradient(farthest-corner at 5% 5%, #7F9FBE 0%, transparent 60%) no-repeat center / cover, 
+                radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 60%) no-repeat center / cover;
 }
 
 .bloco-branco, .bloco-azul, .bloco-final{
@@ -21,12 +23,14 @@ body{
     box-shadow: 0px -4px 14px #4c4c4c;
 }
 .bloco-branco{
+    background: url("../img/elemento_flutuante02.png") no-repeat left 5px bottom 30% / 16%;
     background-color: #FFFFFF;
     margin-top: -50px;
     padding-bottom: 90px;
 }
 
 .bloco-azul{
+    background: url("../img/elemento_flutuante03.png") no-repeat right 5px top 30% / 16%;
     background-color: #004787;
     margin-top: -50px;
     padding-bottom: 100px;
@@ -40,6 +44,12 @@ body{
     padding-top: 80px;
     padding-bottom: 50px;
     margin-bottom: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFFFFF;
+    background-image: radial-gradient(farthest-corner at 5% 5%, #7F9FBE 0%, transparent 60%), 
+                      radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 60%);
 }
 
 .game-titulo p{
@@ -101,6 +111,14 @@ body{
 .btn-certidoes{
     margin-top: 442px;
     margin-left: 70px;
+}
+
+.img-check{
+    width: 25px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
 }
 
 
