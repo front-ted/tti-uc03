@@ -8,6 +8,18 @@ body{
                       radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 40%);
 }
 
+.pagina01{
+    background: url("../img/img-introducao.png") no-repeat left 5px top 1% / 17%,
+                url("../img/img-captacao.png") no-repeat right 5px top 6% / 17%,
+                url("../img/img-planejamento.png") no-repeat left 5px top 15% / 17%;
+}
+.pagina02{
+    background: url("../img/img-caracteristicas.png") no-repeat right 5px top 0.3% / 17%,
+                url("../img/img-residenciais.png") no-repeat left 5px top 4% / 17%,
+                url("../img/img-comerciais.png") no-repeat right 5px top 39% / 17%,
+                url("../img/img-vistoria.png") no-repeat left 5px top 63% / 17%,
+                url("../img/img-encerramento.png") no-repeat right 5px bottom 1.5% / 17%;
+}
 
 .div-postit, .div-postit02{
     margin: 40px auto;
