@@ -40,11 +40,14 @@ body{
     transition: all 0.3s;
     border: none;
     border-radius: 100%;
-    color: #fff;
-    text-shadow: #000 2px 2px 2px;
-    line-height: 20px;
 }
-
+.painel-ambientes label{
+    color: #000;
+    line-height: 20px;
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+}
 
 .btn-fachadas{background: url('../img/bt-fachadas.png') no-repeat center;}
 .btn-cozinha{background: url('../img/bt-cozinha.png') no-repeat center;}
