@@ -165,13 +165,13 @@ table.excel *{
 
 
 /*--- CORREÇÃO MODO ESCURO ---*/
-.modal-body p, .modal-body b, .modal-body i, .modal-body li{
+.modal-body p, .modal-body b, .modal-body i, .modal-body li, .modal-body h4{
     color: #000 !important;
 }
-.modal-body .destaque p{
+.modal-body .destaque p, .modal-body .destaque i, .modal-body .destaque b{
     color: #fff !important;
 }
-.modal-body .destaque.borda-colorida p{
+.modal-body .destaque.borda-colorida p, .modal-body .destaque.borda-colorida i, .modal-body .destaque.borda-colorida b{
     color: #000 !important;
 }
 .modal-footer button{
