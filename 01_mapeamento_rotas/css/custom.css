@@ -123,7 +123,7 @@ body{
 }
 
 /*--- CORREÇÃO MODO ESCURO ---*/
-.modal-body p, .modal-body b, .modal-body i, .modal-body li{
+.modal-body p, .modal-body b, .modal-body i, .modal-body li, .modal-body h4{
     color: #000 !important;
 }
 .modal-body .destaque p{
