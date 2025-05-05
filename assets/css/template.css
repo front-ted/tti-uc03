@@ -968,6 +968,24 @@ tbody td:first-child{border-left: 0;}
   }
 /*FIM SAIBA MAIS*/
 
+
+/* REFERÊNCIAS */
+.referencias{
+    word-break: break-word;
+}
+/* FIM REFERÊNCIAS */
+
+
+
+.selo-presencialidade{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+
 @media screen and (max-width: 1200px){
     h2{margin-left: 0;}
     .container-fluid .splide .splide__slide{

@@ -104,7 +104,6 @@
     $("[data-click='fontSize'][data-value='"+size+"']").addClass("active");
   }
 
-
   function layoutLeitor(){
     HTMLstring='<!DOCTYPE html>\n';
     HTMLstring='<html lang="pt-br">\n';

@@ -16,6 +16,7 @@ body{
     width: 100%;
     min-height: 440px;
     background-size: cover;
+    background-attachment: fixed;
     margin: 80px 0px;
 }
 .divisoria_1{background: url('../img/divisoria.png') no-repeat center;}
@@ -27,6 +28,7 @@ body{
     background: url('../img/mapa.png') no-repeat center;
     background-size: cover;
     margin: 60px auto;
+    filter: drop-shadow(0px 0px 5px #fff);
 }
 .painel-mapa button{
     background-color: transparent;
@@ -104,7 +106,6 @@ body{
     margin-top: 456.5px;
     margin-left: 570px;
 }
-
 .btn-pa{
     width: 40px;
     margin-top: 180px;
@@ -114,6 +115,11 @@ body{
     width: 64px;
     margin-top: 190px;
     margin-left: 794px;
+}
+.btn-pr{
+    width: 62px;
+    margin-top: 588px;
+    margin-left: 463px;
 }
 .btn-pe{
     width: 103px;
@@ -147,6 +153,11 @@ body{
     width: 82px;
     margin-top: 352.5px;
     margin-left: 199px;
+}
+.btn-rr{
+    width: 69px;
+    margin-top: 45px;
+    margin-left: 184px;
 }
 .btn-sc{
     width: 75px;
@@ -195,6 +206,8 @@ body{
 
 
 @media screen and (max-width: 480px){
-
+    .bloco.bg-imagem{
+        display: none;
+    }
 
 }

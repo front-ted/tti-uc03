@@ -42,14 +42,14 @@ body{
     border-radius: 100%;
 }
 
-.btn-fachadas{background: url('../img/bt-fachadas.png') no-repeat;}
-.btn-cozinha{background: url('../img/bt-cozinha.png') no-repeat;}
-.btn-sala{background: url('../img/bt-sala.png') no-repeat;}
-.btn-varandas{background: url('../img/bt-sacada.png') no-repeat;}
-.btn-quartos{background: url('../img/bt-quarto.png') no-repeat;}
-.btn-banheiro{background: url('../img/bt-banheiro.png') no-repeat;}
-.btn-terrenos{background: url('../img/bt-terrenos.png') no-repeat;}
-.btn-comerciais{background: url('../img/bt-imoveis.png') no-repeat;}
+.btn-fachadas{background: url('../img/bt-fachadas.png') no-repeat center;}
+.btn-cozinha{background: url('../img/bt-cozinha.png') no-repeat center;}
+.btn-sala{background: url('../img/bt-sala.png') no-repeat center;}
+.btn-varandas{background: url('../img/bt-sacada.png') no-repeat center;}
+.btn-quartos{background: url('../img/bt-quarto.png') no-repeat center;}
+.btn-banheiro{background: url('../img/bt-banheiro.png') no-repeat center;}
+.btn-terrenos{background: url('../img/bt-terrenos.png') no-repeat center;}
+.btn-comerciais{background: url('../img/bt-imoveis.png') no-repeat center;}
 
 
 .modal-body .row .destaque{
@@ -65,6 +65,41 @@ body{
     display: block;
     margin: 20px auto;
     max-width: 220px;
+}
+
+
+
+/*--- CORREÇÃO MODO ESCURO ---*/
+.modal-body p, .modal-body b, .modal-body i, .modal-body li{
+    color: #000 !important;
+}
+.modal-body .destaque p{
+    color: #fff !important;
+}
+.modal-body .destaque.borda-colorida p{
+    color: #000 !important;
+}
+.modal-footer button{
+    color: #92acce !important;
+}
+.modal-footer button:hover{
+    color: #fff !important;
+}
+.flip-card-back p{
+    color: #000 !important;
+}
+table.excel td{
+    color: #000 !important;
+}
+.info-caderno li{
+    color: #000 !important;
+}
+/*--- FIM CORREÇÃO MODO ESCURO ---*/
+
+
+.visto{
+    background-size: 110% !important;
+    border: #02a799 solid 6px !important;
 }
 
 

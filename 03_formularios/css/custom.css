@@ -8,7 +8,7 @@ body{
                 url("../img/flutuante_4.png") no-repeat right -50px top 56% / 16%,
                 url("../img/flutuante_5.png") no-repeat left -60px top 59% / 16%,
                 url("../img/flutuante_6.png") no-repeat right -50px top 63% / 16%,
-                linear-gradient(#7F9FBE, #FFFFFF, #FFFFFF, #FCCCA0);
+                linear-gradient(#afcfef, #FFFFFF, #FFFFFF, #FCCCA0);
 }
 
 
@@ -47,6 +47,39 @@ body{
 }
 
 
+.tab-content{
+    background-color: #fff;
+}
+
+/*--- CORREÇÃO MODO ESCURO ---*/
+.modal-body p, .modal-body b, .modal-body i, .modal-body li{
+    color: #000 !important;
+}
+.modal-body .destaque p{
+    color: #fff !important;
+}
+.modal-body .destaque.borda-colorida p{
+    color: #000 !important;
+}
+.modal-footer button{
+    color: #92acce !important;
+}
+.modal-footer button:hover{
+    color: #fff !important;
+}
+.flip-card-back p{
+    color: #000 !important;
+}
+table.excel td{
+    color: #000 !important;
+}
+.info-caderno li{
+    color: #000 !important;
+}
+/*--- FIM CORREÇÃO MODO ESCURO ---*/
+
+
+
 @media screen and (max-width: 1300px){
     body{
         background-image: none;
@@ -69,6 +102,9 @@ body{
 
 
 @media screen and (max-width: 480px){
+    .bloco.bg-imagem{
+        display: none;
+    }
 
     .caderno-conteudo{
         padding-top: 30px;

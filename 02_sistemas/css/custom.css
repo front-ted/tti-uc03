@@ -3,7 +3,7 @@ body{
                 url("../img/flutuante_2.png") no-repeat left 2px top 10% / 15%,
                 url("../img/flutuante_5.png") no-repeat right 5px top 18% / 15%,
                 url("../img/flutuante_4.png") no-repeat left 3px top 25% / 15%,
-                linear-gradient(#7F9FBE, #FFFFFF, #FFFFFF, #FCCCA0);
+                linear-gradient(#afcfef, #FFFFFF, #FFFFFF, #FCCCA0);
 }
 
 
@@ -51,6 +51,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transform: scale(1.1);
 }
 .painel-estrategias button{
     width: 300px;
@@ -113,6 +114,33 @@ table.excel *{
 }
 
 
+
+/*--- CORREÇÃO MODO ESCURO ---*/
+.modal-body p, .modal-body b, .modal-body i, .modal-body li{
+    color: #000 !important;
+}
+.modal-body .destaque p{
+    color: #fff !important;
+}
+.modal-body .destaque.borda-colorida p{
+    color: #000 !important;
+}
+.modal-footer button{
+    color: #92acce !important;
+}
+.modal-footer button:hover{
+    color: #fff !important;
+}
+.flip-card-back p{
+    color: #000 !important;
+}
+table.excel td{
+    color: #000 !important;
+}
+/*--- FIM CORREÇÃO MODO ESCURO ---*/
+
+
+
 @media screen and (max-width: 1300px){
     body{
         background-image: none;
@@ -132,6 +160,20 @@ table.excel *{
 
 
 @media screen and (max-width: 480px){
+    .bloco.bg-imagem{
+        display: none;
+    }
 
-    
+    .painel-estrategias{
+        transform: scale(1);
+        text-align: center;
+    }
+    .painel-estrategias button{
+        margin: 10px auto 30px auto;
+    }
+
+    .flip-card{
+        width: 330px;
+        height: 225px;
+    }
 }

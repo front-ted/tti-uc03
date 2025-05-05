@@ -315,7 +315,7 @@ p:first-line,
 div:first-line,
 blockquote:first-line,
 li:first-line {
-    background: transparent !important;
+    
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
@@ -673,13 +673,32 @@ iframe, iframe.youtube-pl{
 .modal-header button{
   display: none;
 }
-.destaque{
-  width: 80%;
-  border: 2px solid;
+div.destaque{
+  width: 100%;
+  border: none;
   margin: 20px auto;
-  padding: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
+
+/*
+.destaque.icone{
+  padding-top: 60px;
+}
+.destaque.icone.atencao, .destaque.icone.importante{
+  background: url('../../01_mapeamento_rotas/img/ico_atencao_neg.png') no-repeat top 10px center !important;
+  background-size: 8% !important;
+  background-color: #c4c4c4 !important;
+}
+.destaque.icone.dica{
+  background: url('../../01_mapeamento_rotas/img/ico_dica_neg.png') no-repeat top 10px center !important;
+  background-size: 8% !important;
+  background-color: #c4c4c4 !important;
+}
+*/
+
 .destaque.gradiente{background: transparent;}
+
 /* código para tabela não desconfigurar na versão impressa */
 table.text-left.align-middle {
   width: 80% !important;
@@ -713,6 +732,7 @@ table.text-left.align-middle td {
   margin: 20px auto;
   padding: 10px;
 }
+
 .destaque.gradiente{background: transparent;}
 
 ul li{list-style-type: disc !important;}
@@ -720,3 +740,23 @@ ol li{list-style-type: auto !important;}
 ol[type="a"] li{list-style-type: lower-alpha !important;}
 
 .bt-tooltip{text-decoration: underline;}
+
+.pagina img{
+  max-width: 120% !important;
+}
+
+table.excel{
+  border-radius: 0px !important;
+  margin: 40px auto;
+}
+table.excel *{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 8pt;
+  border: #000 solid 2px;
+  background-color: #fff;
+  border-radius: 0px !important;
+}
+
+.citacao {
+  padding-left: 20%;
+}

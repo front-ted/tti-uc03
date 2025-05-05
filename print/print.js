@@ -125,3 +125,16 @@ function fontSize(size)
     $("[data-click='fontSize']").removeClass("active");
     $("[data-click='fontSize'][data-value='"+size+"']").addClass("active");
   }
+
+
+/*
+$(document).ready(function () {
+  
+  var conteudoID = $('#importante p:first');
+  alert("TESTE 2: "+conteudoID);
+
+  $( "#importante p:first" ).html( "New <strong>first</strong> paragraph!" );
+  //$("#importante").text("Novo texto");
+
+});
+*/
