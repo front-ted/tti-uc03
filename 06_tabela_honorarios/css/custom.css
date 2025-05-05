@@ -70,9 +70,10 @@ body{
     margin-left: 664px;
 }
 .btn-df{
-    width: 19px;
-    margin-top: 400.5px;
-    margin-left: 537px;
+    width: 66px;
+    margin-top: 385px;
+    margin-left: 491px;
+    height: 30px !important;
 }
 .btn-es{
     width: 65px;
@@ -82,8 +83,8 @@ body{
 }
 .btn-go{
     width: 47px;
-    margin-top: 432px;
-    margin-left: 478px;
+    margin-top: 437px;
+    margin-left: 474px;
 }
 .btn-ma{
     width: 88px;

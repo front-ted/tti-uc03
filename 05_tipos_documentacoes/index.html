@@ -79,7 +79,7 @@
 
                             <div class="no-print" aria-hidden="true">
                                 <p>Clique ou toque para visualizar o conteúdo.</p>
-                                <div class="painel-arquivo">
+                                <div class="painel-arquivo" aria-hidden="true">
                                     <button type="button" class="btn-matricula" data-bs-toggle="modal" data-bs-target="#modal-matricula">
                                         <img src="../assets/images/check.svg" class="img-check check-matricula">
                                     </button>
@@ -103,6 +103,7 @@
                                     </button>
                                 </div>
                             </div>
+                            <p class="sr-only print"><b>Documentação do imóvel</b></p>
                             <div class="modal fade" id="modal-matricula" tabindex="-1" aria-labelledby="exampleModalLabel">
                                 <div class="modal-dialog modal-xl">
                                     <div class="modal-content">
@@ -248,6 +249,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <p class="sr-only print"><b>Documentação do proprietário</b></p>
                             <div class="modal fade" id="modal-rg_cpf" tabindex="-1" aria-labelledby="exampleModalLabel">
                                 <div class="modal-dialog modal-xl">
                                     <div class="modal-content">
@@ -258,8 +260,8 @@
                                         <div class="modal-body">
                                             <div class="container">
                                                 <p>O corretor deverá solicitar ao proprietário cópia de identificação válida (RG) e CPF; se for casado, os documentos do seu cônjuge também devem constar. É importante confrontar esses documentos com o que está na matrícula, verificando se estão de acordo ou não. Muitas vezes, podemos encontrar RG, CPF e os próprios nomes escritos de forma incorreta. Esses erros deverão ser regularizados pelo proprietário; caso contrário, no momento da venda serão um impeditivo. </p>
-                                                <figure class="my-5">
-                                                    <img src="img/fig05.png" class="img-fluid mx-auto p-2 mb-3 d-none d-md-block radius print">
+                                                <figure class="my-5 no-print">
+                                                    <img src="img/fig05.png" class="img-fluid mx-auto p-2 mb-3 d-none d-md-block radius no-print">
                                                     <a href="img/fig05.png" target="_blank" class="img-zoom d-block d-md-none no-print">
                                                         <img src="img/fig05.png" class="img-fluid mx-auto p-2 mb-3 radius">
                                                     </a>
@@ -287,8 +289,8 @@
                                         <div class="modal-body">
                                             <div class="container">
                                                 <p>É necessário solicitar a certidão de nascimento e/ou de casamento dos proprietários para confrontar com os dados da matrícula e verificar o tipo de regime de bens, por exemplo, pois cada situação tem um reflexo jurídico imobiliário diferente. </p>
-                                                <figure class="my-5">
-                                                    <img src="img/fig06.png" class="img-fluid mx-auto p-2 mb-3 d-none d-md-block radius print">
+                                                <figure class="my-5 no-print">
+                                                    <img src="img/fig06.png" class="img-fluid mx-auto p-2 mb-3 d-none d-md-block radius no-print">
                                                     <a href="img/fig06.png" target="_blank" class="img-zoom d-block d-md-none no-print">
                                                         <img src="img/fig06.png" class="img-fluid mx-auto p-2 mb-3 radius">
                                                     </a>
@@ -354,7 +356,7 @@
                                 <li>Certidão negativa da justiça federal</li>
                                 <li>Certidão negativa de distribuição de ações cíveis (15 anos)</li>
                                 <li>Certidão negativa de distribuição de executivos fiscais – Federal, Estadual e Municipal (10 anos)</li>
-                                <li>Certidão negativa de distribuição de ações criminais (10anos)</li>
+                                <li>Certidão negativa de distribuição de ações criminais (10 anos)</li>
                                 <li>Certidão negativa de distribuição de reclamações trabalhistas (10 anos)</li>
                                 <li>Certidão Negativa de protestos (10 anos)</li>
                             </ul>
@@ -368,14 +370,89 @@
                             <p>Na matrícula, são averbados todos os atos jurídicos do imóvel: <b>demolição, construção, habite-se, conclusão de obra, compra/venda, penhora, pacto antinupcial, partilha por separação judicial, inventário, mudança do estado civil, óbitos etc</b>. Qualquer ato jurídico que não tenha sido averbado na matrícula do imóvel, em sua sequência cronológica, somente poderá ser regularizado retrocedendo a outro ato, mediante processo judicial.</p>
                             <p>Porém, podemos nos deparar com outra situação: o imóvel não tem matrícula. Isso pode acontecer por nunca terem sido desmembrados, ou seja, ainda pertencem a um todo maior, outros, por não terem sofrido alteração no registro, depois da edição da Lei nº 6.015/73. Nesses casos, é preciso verificar se o documento de posse é anterior ao ano de 1973. Para esses imóveis, registrados antes de 1973, os quais não sofreram nenhum ato de registro/averbação após esse período, o documento oficial de registro será a certidão de translado fornecida pelo ofício de imóveis. </p>
                             <div class="grafismo">
-                                <div class="destaque gradiente icone pesquisar">
+                                <div class="destaque borda-colorida icone pesquisar">
                                     <p>Se você deseja aprofundar os estudos sobre averbação e registro no ofício imobiliário, leia o art. 167, incisos I e II, da Lei nº 6.015/1973.</p>
                                 </div>
                             </div>
                             <p>Você também deve estar se perguntando: “E se eu me deparar com alguma irregularidade, simplesmente desisto do agenciamento?”. A resposta é: <b>depende de cada situação!</b></p>
                             <p>Abaixo estão listados alguns casos de irregularidades, o que pode ser feito nessas situações e/ou qual orientação pode ser fornecida ao proprietário para a regularização do seu imóvel. Confira:</p>
                             <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
-
+                            <div class="accordion my-5" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading01">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse01" aria-expanded="false" aria-controls="collapse01">
+                                            O proprietário não fez o registro da escritura pública no registro de imóvel.
+                                        </button>
+                                    </h2>
+                                    <div id="collapse01" class="accordion-collapse collapse" aria-labelledby="heading01" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Deverá providenciá-lo imediatamente, pois ele demora de 15 a 45 dias. Tem um custo de 3,5% do valor do imóvel, podendo ser realizado quando já possuir um comprador interessado. O comprador deve ser informado deste processo e do tempo que levará para conclui-lo. O proprietário deve ser notificado de que necessitará fazer o registro para a venda, esta irregularidade deve estar salientada na ficha cadastro do imóvel para que todos os corretores da imobiliária saibam da situação do imóvel. É uma venda que terá um tempo maior de conclusão e consequentemente o recebimento da comissão também será ao final do processo. A maioria das imobiliárias não aceita o agenciamento e/ou início de um processo de venda de um imóvel sem a matrícula.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading02">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse02" aria-expanded="false" aria-controls="collapse02">
+                                            O proprietário mudou de estado civil.
+                                        </button>
+                                    </h2>
+                                    <div id="collapse02" class="accordion-collapse collapse" aria-labelledby="heading02" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Qualquer mudança de estado civil deverá ser averbada na matrícula e no histórico do imóvel; casamento, divórcio ou viuvez. Para que a venda seja efetivada, esta averbação deve ser realizada e o custo é de responsabilidade do proprietário. Este registro, por ter custo, pode ser realizado no momento da venda, mas deve estar com a situação descrita no Contrato de Compra e Venda e os compradores precisam estar de acordo. A regularização demanda em torno de 15 dias, na maioria dos Registros de Imóveis. É importante que o corretor de imóveis tenha conhecimento destes prazos de regularização nos Registros de Imóveis de sua cidade, para poder orientar os proprietários e os futuros compradores. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading03">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03" aria-expanded="false" aria-controls="collapse03">
+                                            Na matrícula, está escrito que se trata de terreno, e o proprietário construiu um prédio sobre ele.
+                                        </button>
+                                    </h2>
+                                    <div id="collapse03" class="accordion-collapse collapse" aria-labelledby="heading03" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Esta construção, não estando averbada, somente poderá ser vendida como terreno, não fazendo alusão à casa/prédio. Para tanto, o proprietário deverá regularizar a situação, o que levará um tempo e demandará um custo significativo. Para se construir sobre um terreno, primeiro tem que ser feito um projeto, este que precisa de liberação da Prefeitura e do INSS. Construído o imóvel deve-se requerer o habite-se na Prefeitura, e depois se averba a construção no registro de imóveis, passando a existir o imóvel. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading04">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse04" aria-expanded="false" aria-controls="collapse04">
+                                            O imóvel está em inventário.
+                                        </button>
+                                    </h2>
+                                    <div id="collapse04" class="accordion-collapse collapse" aria-labelledby="heading04" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Quando há o falecimento de um dos proprietários, os bens necessitam ser divididos entre os herdeiros, e para isso é necessário um processo jurídico, chamado de inventário e partilha de bens. Às vezes podem existir mais de 5 herdeiros, sendo a venda legal somente após a conclusão do formal de partilha e do inventárioou com autorização em que o juiz defira um alvará para a venda. Com o formal de partilha concluído e averbado na matrícula já é possível realizar a venda do imóvel.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading05">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse05" aria-expanded="false" aria-controls="collapse05">
+                                            Há irregularidades com dívidas.
+                                        </button>
+                                    </h2>
+                                    <div id="collapse05" class="accordion-collapse collapse" aria-labelledby="heading05" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>O comprometimento por dívidas pode tornar o imóvel irregular. Neste momento do agenciamento, é importante saber do proprietário do imóvel se há financiamento, devendo verificar na matrícula a alienação ao agente financeiro. Se já estiver quitado deve conter carta de quitação do agente financeiro averbada na matrícula, senão, o proprietário tem que solicitar o cancelamento do gravame na matrícula. Se ainda estiver com financiamento, o proprietário tem que quitá-lo ou ser acordado em Contrato de Compra e Venda com o comprador que, com a entrada, quitará o financiamento, averbado na matrícula, para então finalizar a compra.</p>
+                                            <p>No caso de agenciar um imóvel com dívida deve ser descrita a situação na ficha cadastro de agenciamento, para que todos os corretores possam ter a informação. </p>
+                                            <p>Neste momento do agenciamento é possível verificar as dívidas de financiamento. No momento da venda, outras negativas cíveis e trabalhistas serão solicitadas, para verificar se o imóvel não está em algum processo que envolva risco de penhora ou se ele não será leiloado. O ideal é averiguar toda a situação do imóvel no momento do agenciamento, mas isto é inviável em função de todas as certidões negativas terem um prazo de validade de 30 dias e possuírem um custo. Considerando que um imóvel leva em média de 6 meses a 1 ano para a venda, estas negativas perdem validade.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading06">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse06" aria-expanded="false" aria-controls="collapse06">
+                                            Há problemas de débito com a Prefeitura.
+                                        </button>
+                                    </h2>
+                                    <div id="collapse06" class="accordion-collapse collapse" aria-labelledby="heading06" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>A falta de pagamento do IPTU (imóveis urbanos) ou ITR (imóveis rurais) ou dívidas relativas a taxas e obrigações perante a Prefeitura ou com a União também podem causar problemas para a venda do imóvel. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                             <p>Até aqui, estudamos em detalhes, nesta unidade curricular, a atividade de agenciamento de um imóvel, que acontece no início da intermediação imobiliária. É nesse momento que o corretor de imóveis deverá obter e fornecer informações importantes sobre a comercialização (venda) e a locação do imóvel, estabelecer premissas de atendimento (com ou sem exclusividade) e obter a autorização. Como toda negociação com imóveis possui riscos e envolve valores significativos, a análise da documentação básica é de vital importância para a verificação de impedimentos para a venda já no momento de agenciamento do imóvel.</p>
                             <p>A análise dessa documentação oportunizará ao corretor se certificar da situação mínima favorável para colocação do imóvel a venda, e poderá também orientar o proprietário sobre alguma regularização que deverá providenciar para vender o seu imóvel. </p>
@@ -390,111 +467,114 @@
 
                     <div class="bloco-gradiente bloco-final">
                         <div class="container">
-                            <p>Para praticar o que aprendeu até aqui, faça o exercício a seguir.</p>
-
-                            <div id="content-game">
-                                <div class="container-fluid game-body no-print" style="padding:0;">
-                                    <div class="row">
-                                        <div id="slots" class="col-12">
-                                            <div class="row">
-                                                <div class="col-12 col-md-4 mt-3 mb-3">
-                                                    <div class="game-titulo">
-                                                        <p>Matrícula</p>
+                            <div class="no-print" aria-hidden="true">
+                                <p>Para praticar o que aprendeu até aqui, faça o exercício a seguir.</p>
+                                <img src="../assets/images/selo-presencialidade.png" class="selo-presencialidade">
+    
+                                <div id="content-game">
+                                    <div class="container-fluid game-body no-print" style="padding:0;">
+                                        <div class="row">
+                                            <div id="slots" class="col-12">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-4 mt-3 mb-3">
+                                                        <div class="game-titulo">
+                                                            <p>Matrícula</p>
+                                                        </div>
+                                                        <div id="slot-1" class="slot">
+                                                            
+                                                        </div>
                                                     </div>
-                                                    <div id="slot-1" class="slot">
+                                                    <div class="col-12 col-md-4 mt-3 mb-3">
+                                                        <div class="game-titulo">
+                                                            <p>IPTU</p>
+                                                        </div>
+                                                        <div id="slot-2" class="slot">
                                                         
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-12 col-md-4 mt-3 mb-3">
-                                                    <div class="game-titulo">
-                                                        <p>IPTU</p>
+                                                    <div class="col-12 col-md-4 mt-3 mb-3">
+                                                        <div class="game-titulo">
+                                                            <p>Doc. de condomínio</p>
+                                                        </div>
+                                                        <div id="slot-3" class="slot">
+                                                        
+                                                        </div>
                                                     </div>
-                                                    <div id="slot-2" class="slot">
-                                                    
+                                                    <div class="col-12 col-md-6 mt-3 mb-3">
+                                                        <div class="game-titulo">
+                                                            <p>Certidão de casamento</p>
+                                                        </div>
+                                                        <div id="slot-4" class="slot">
+                                                        
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-12 col-md-4 mt-3 mb-3">
-                                                    <div class="game-titulo">
-                                                        <p>Doc. de condomínio</p>
-                                                    </div>
-                                                    <div id="slot-3" class="slot">
-                                                    
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6 mt-3 mb-3">
-                                                    <div class="game-titulo">
-                                                        <p>Certidão de casamento</p>
-                                                    </div>
-                                                    <div id="slot-4" class="slot">
-                                                    
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6 mt-3 mb-3">
-                                                    <div class="game-titulo">
-                                                        <p>ITR</p>
-                                                    </div>
-                                                    <div id="slot-5" class="slot">
-                                                    
+                                                    <div class="col-12 col-md-6 mt-3 mb-3">
+                                                        <div class="game-titulo">
+                                                            <p>ITR</p>
+                                                        </div>
+                                                        <div id="slot-5" class="slot">
+                                                        
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                            
-                                        <div id="cardPile" class="game-itens-container">
-                                            <div id="card-3" class="card" data-target="slot-3">
-                                                Identifica os valores atuais do condomínio e os dados da administradora.
-                                            </div>
-                                            <div id="card-1" class="card" data-target="slot-1">
-                                                Registra a identificação do imóvel e todas as informações do imóvel.
-                                            </div>
-                                            <div id="card-4" class="card" data-target="slot-4">
-                                                É válida por 60 dias e objetiva a verificação do atual estado civil da pessoa.
-                                            </div>
-                                            <div id="card-5" class="card" data-target="slot-5">
-                                                Identifica os valores atuais do Imposto sobre a Propriedade Territorial Rural.
-                                            </div>
-                                            <div id="card-2" class="card" data-target="slot-2">
-                                                Identifica os valores atuais do Imposto sobre a Propriedade Predial Territorial Urbana.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Resposta correta</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-12 col-lg-4">
-                                                    <img src="../assets/atividades/arrasta_solta/resposta_pos.svg" class="img-fluid" alt="">
+                                
+                                            <div id="cardPile" class="game-itens-container">
+                                                <div id="card-3" class="card" data-target="slot-3">
+                                                    Identifica os valores atuais do condomínio e os dados da administradora.
                                                 </div>
-                                                <div class="col-12 col-lg-8">
-                                                    <p>Muito bem! Você acertou.</p>
+                                                <div id="card-1" class="card" data-target="slot-1">
+                                                    Registra a identificação do imóvel e todas as informações do imóvel.
+                                                </div>
+                                                <div id="card-4" class="card" data-target="slot-4">
+                                                    É válida por 60 dias e objetiva a verificação do atual estado civil da pessoa.
+                                                </div>
+                                                <div id="card-5" class="card" data-target="slot-5">
+                                                    Identifica os valores atuais do Imposto sobre a Propriedade Territorial Rural.
+                                                </div>
+                                                <div id="card-2" class="card" data-target="slot-2">
+                                                    Identifica os valores atuais do Imposto sobre a Propriedade Predial Territorial Urbana.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header bg-danger">
-                                            <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times"></i> Resposta incorreta</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-12 col-lg-4">
-                                                    <img src="../assets/atividades/arrasta_solta/resposta_neg.svg" class="img-fluid" alt="">
+                                
+                                <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Resposta correta</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-4">
+                                                        <img src="../assets/atividades/arrasta_solta/resposta_pos.svg" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-lg-8">
+                                                        <p>Muito bem! Você acertou.</p>
+                                                    </div>
                                                 </div>
-                                                <div class="col-12 col-lg-8">
-                                                    <p>Ops, tente novamente!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-danger">
+                                                <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times"></i> Resposta incorreta</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-4">
+                                                        <img src="../assets/atividades/arrasta_solta/resposta_neg.svg" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-lg-8">
+                                                        <p>Ops, tente novamente!</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
