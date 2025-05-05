@@ -720,7 +720,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 1680px){
+@media screen and (max-width: 1500px){
   .circulo-1 {
     left: -355px;
   }
