@@ -40,7 +40,11 @@ body{
     transition: all 0.3s;
     border: none;
     border-radius: 100%;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    line-height: 20px;
 }
+
 
 .btn-fachadas{background: url('../img/bt-fachadas.png') no-repeat center;}
 .btn-cozinha{background: url('../img/bt-cozinha.png') no-repeat center;}
@@ -99,7 +103,7 @@ table.excel td{
 
 .visto{
     background-size: 110% !important;
-    border: #02a799 solid 6px !important;
+    border: #02a799 solid 8px !important;
 }
 
 
