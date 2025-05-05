@@ -189,6 +189,9 @@ table.excel td{
 .info-caderno li{
     color: #000 !important;
 }
+.figure-caption{
+    color: #6c757d !important;
+}
 /*--- FIM CORREÇÃO MODO ESCURO ---*/
 
 
@@ -201,6 +204,17 @@ table.excel td{
 }
 
 @media screen and (max-width: 820px){
+    .bloco-branco, .bloco-azul{
+        background-image: none;
+    }
+    .bloco-gradiente.bloco-01{
+        background: none;
+    }
+    .bloco-gradiente.bloco-01{
+        background: radial-gradient(farthest-corner at 5% 5%, #a2bcd7 0%, transparent 60%) no-repeat center / cover, 
+                    radial-gradient(farthest-corner at 100% 100%, #FCCCA0 0%, transparent 60%) no-repeat center / cover;
+    }
+
     .modal-body .row .destaque{
         height: 100%;
     }
