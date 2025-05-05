@@ -741,4 +741,8 @@ ul {
     padding-right: 15px;
   }
   .grupo .drag-column{overflow-y: hidden;}
+
+  .logo-senac{
+    margin-left: -50px !important;
+  }
 }
