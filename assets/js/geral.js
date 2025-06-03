@@ -9,7 +9,7 @@ window.addEventListener('load', function(){
       return new bootstrap.Popover(popoverTriggerEl)
     })
 
-    $('.preloader').delay(2200).fadeOut(500);
+    $('.preloader').delay(1500).fadeOut(500);
 
     $('.botao').click(function(){
       $(this).addClass('visitado');
